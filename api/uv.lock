@@ -423,7 +423,7 @@ wheels = [
 
 [[package]]
 name = "azure-storage-blob"
-version = "12.28.0"
+version = "12.29.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
@@ -431,9 +431,9 @@ dependencies = [
     { name = "isodate" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/71/24/072ba8e27b0e2d8fec401e9969b429d4f5fc4c8d4f0f05f4661e11f7234a/azure_storage_blob-12.28.0.tar.gz", hash = "sha256:e7d98ea108258d29aa0efbfd591b2e2075fa1722a2fae8699f0b3c9de11eff41", size = 604225, upload-time = "2026-01-06T23:48:57.282Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/25/fdcf1e381922dbab8ba23d6fd78d397fe6cbac6b480310218834b7bc91fe/azure_storage_blob-12.29.0.tar.gz", hash = "sha256:2824ddd7ebc9056034ebc76b17971a38e9aa5835abb0d565b9700493f2a6c657", size = 611359, upload-time = "2026-05-15T03:34:59.865Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d8/3a/6ef2047a072e54e1142718d433d50e9514c999a58f51abfff7902f3a72f8/azure_storage_blob-12.28.0-py3-none-any.whl", hash = "sha256:00fb1db28bf6a7b7ecaa48e3b1d5c83bfadacc5a678b77826081304bd87d6461", size = 431499, upload-time = "2026-01-06T23:48:58.995Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/2c/6ddee6a3e42d0236ba9259e4df7fa97fdc415ff0802b736c634baaf4b285/azure_storage_blob-12.29.0-py3-none-any.whl", hash = "sha256:ccf8a1bcd5e49df83ab85aab793b579e5ba2eeea2ad8900b2f62ca3a37dc391f", size = 434823, upload-time = "2026-05-15T03:35:01.837Z" },
 ]
 
 [[package]]
@@ -595,16 +595,16 @@ wheels = [
 
 [[package]]
 name = "boto3"
-version = "1.43.6"
+version = "1.43.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
     { name = "jmespath" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0a/37/78c630d1308964aa9abf44951d9c4df776546ff37251ec2434944e205c4e/boto3-1.43.6.tar.gz", hash = "sha256:e6315effaf12b890b99956e6f8e2c3000a3f64e4ee91943cec3895ce9a836afb", size = 113153, upload-time = "2026-05-07T20:49:59.694Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/79/4b/616367e871ce3f1cb3e8545a97736b6331b9fb081497f2d44c5b2aa6959d/boto3-1.43.14.tar.gz", hash = "sha256:5c0a994b3182061ee101812e721100717a4d664f9f4ceaf4a86b6d032ce9fc2d", size = 113142, upload-time = "2026-05-22T19:28:47.861Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/e2/3c2eef44f55eafab256836d1d9479bd6a74f70c26cbfdc0639a0e23e4327/boto3-1.43.6-py3-none-any.whl", hash = "sha256:179601ec2992726a718053bf41e43c223ceba397d31ceab11f64d9c910d9fc3a", size = 140502, upload-time = "2026-05-07T20:49:57.8Z" },
+    { url = "https://files.pythonhosted.org/packages/cb/00/59cb9329c18e2d3aa23062ceaa87d065f2e81e7d2931df24d64e9a7815aa/boto3-1.43.14-py3-none-any.whl", hash = "sha256:574335744656cfed0b362a0a0467aaf2eb2bf15526edcd02d31d3c661f4b09e4", size = 140536, upload-time = "2026-05-22T19:28:46.49Z" },
 ]
 
 [[package]]
@@ -627,16 +627,16 @@ bedrock-runtime = [
 
 [[package]]
 name = "botocore"
-version = "1.43.6"
+version = "1.43.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/79/a7/23d0f5028011455096a1eeac0ddf3cbe147b3e855e127342f8202552194d/botocore-1.43.6.tar.gz", hash = "sha256:b1e395b347356860398da42e61c808cf1e34b6fa7180cf2b9d87d986e1a06ba0", size = 15336070, upload-time = "2026-05-07T20:49:48.14Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/78/3c/798d2f7deb118241930c7c6bcfb0b970d3f0245bf580700663199aeed2c3/botocore-1.43.14.tar.gz", hash = "sha256:b9e500737e43d2f147c9d4e23b54360335e77d4c0ba90a318f51b65e06cb8516", size = 15382604, upload-time = "2026-05-22T19:28:36.363Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/c8/6f47223840e8d8cfa8c9f7c0ec1b77970417f257fc885169ff4f6326ce09/botocore-1.43.6-py3-none-any.whl", hash = "sha256:b6d1fdbc6f65a5fe0b7e947823aa37535d3f39f3ba4d21110fab1f55bbbcc04b", size = 15017094, upload-time = "2026-05-07T20:49:44.964Z" },
+    { url = "https://files.pythonhosted.org/packages/27/7e/6e64821077cd2efc4aa51b7d638fb6d48e1c7c450201c529fbaf1de8bfd3/botocore-1.43.14-py3-none-any.whl", hash = "sha256:1f4a2a95ea78c10398e78431e98c1fe47adb54a7b10a32975144c1f541186658", size = 15061424, upload-time = "2026-05-22T19:28:32.682Z" },
 ]
 
 [[package]]
@@ -1049,7 +1049,7 @@ wheels = [
 
 [[package]]
 name = "cos-python-sdk-v5"
-version = "1.9.42"
+version = "1.9.43"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "crcmod" },
@@ -1058,9 +1058,9 @@ dependencies = [
     { name = "six" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/40/e3/b903b4acde334510f481d126a686bc4013710c00e2af34bff369511329ac/cos_python_sdk_v5-1.9.42.tar.gz", hash = "sha256:2a01d1868f50c5a70771f2b67da868f1dc6c6f3890f8009715313834404decc4", size = 102670, upload-time = "2026-04-23T11:08:27.949Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/40/73/3d5321fa6c0fe14ababd5e4a8d02941785b54a9b1ba4e99336b227cba223/cos_python_sdk_v5-1.9.43.tar.gz", hash = "sha256:ff661561686356f4cff02af03a63eca27607edef2edd233f9cdcd1ca2125357b", size = 103216, upload-time = "2026-05-13T12:01:53.765Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ee/bf/4ea660bb79d91fd41ba394605eccffd3d0943ed547b3fe2bdc6c7a52d2d1/cos_python_sdk_v5-1.9.42-py3-none-any.whl", hash = "sha256:02e583a1094e1794e6c0f56618d5190eb9eb7bfe75909f1dfac41bbee46e46c5", size = 98375, upload-time = "2026-04-23T11:05:14.519Z" },
+    { url = "https://files.pythonhosted.org/packages/c6/dd/b6cbe0ddd04c0543195e089bd962f5e890218e621dfb652781997860eda5/cos_python_sdk_v5-1.9.43-py3-none-any.whl", hash = "sha256:2623db720d9d1aac01faf5ad5a422008a4a0475a852c8413a56b0a8415f647aa", size = 98826, upload-time = "2026-05-13T12:01:51.383Z" },
 ]
 
 [[package]]
@@ -1612,7 +1612,7 @@ requires-dist = [
     { name = "aliyun-log-python-sdk", specifier = ">=0.9.44,<1.0.0" },
     { name = "azure-identity", specifier = ">=1.25.3,<2.0.0" },
     { name = "bleach", specifier = ">=6.3.0" },
-    { name = "boto3", specifier = ">=1.43.6" },
+    { name = "boto3", specifier = ">=1.43.14" },
     { name = "celery", specifier = ">=5.6.3" },
     { name = "croniter", specifier = ">=6.2.2" },
     { name = "fastopenapi", extras = ["flask"], specifier = "~=0.7.0" },
@@ -1716,15 +1716,15 @@ dev = [
     { name = "xinference-client", specifier = ">=2.7.0" },
 ]
 storage = [
-    { name = "azure-storage-blob", specifier = ">=12.28.0" },
+    { name = "azure-storage-blob", specifier = ">=12.29.0" },
     { name = "bce-python-sdk", specifier = ">=0.9.71" },
-    { name = "cos-python-sdk-v5", specifier = ">=1.9.42" },
+    { name = "cos-python-sdk-v5", specifier = ">=1.9.43" },
     { name = "esdk-obs-python", specifier = ">=3.22.2" },
     { name = "google-cloud-storage", specifier = ">=3.10.1" },
-    { name = "opendal", specifier = ">=0.46.0" },
+    { name = "opendal", specifier = ">=0.47.1" },
     { name = "oss2", specifier = ">=2.19.1" },
     { name = "supabase", specifier = ">=2.30.0" },
-    { name = "tos", specifier = ">=2.9.0" },
+    { name = "tos", specifier = ">=2.9.1" },
 ]
 tools = [
     { name = "cloudscraper", specifier = ">=1.2.71" },
@@ -4203,18 +4203,19 @@ wheels = [
 
 [[package]]
 name = "opendal"
-version = "0.46.0"
+version = "0.47.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/33/db/9c37efe16afe6371d66a0be94fa701c281108820198f18443dc997fbf3d8/opendal-0.46.0.tar.gz", hash = "sha256:334aa4c5b3cc0776598ef8d3c154f074f6a9d87981b951d70db1407efed3b06c", size = 989391, upload-time = "2025-07-17T06:58:52.913Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/24/a8/674b7d77806b2d9f0a92294503b35784267fd0c1dd8f11fe4108a372656a/opendal-0.47.1.tar.gz", hash = "sha256:b3b9a7f056ed5bddb142c54bbf9618125e6f864ed53d35d91fad9823960e39e7", size = 1210250, upload-time = "2026-04-30T18:18:35.013Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/05/a8d9c6a935a181d38b55c2cb7121394a6bdd819909ff453a17e78f45672a/opendal-0.46.0-cp311-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:8cd4db71694c93e99055349714c7f7c7177e4767428e9e4bc592e4055edb6dba", size = 26502380, upload-time = "2025-07-17T06:58:16.173Z" },
-    { url = "https://files.pythonhosted.org/packages/57/8d/cf684b246fa38ab946f3d11671230d07b5b14d2aeb152b68bd51f4b2210b/opendal-0.46.0-cp311-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:3019f923a7e1c5db86a36cee95d0c899ca7379e355bda9eb37e16d076c1f42f3", size = 12684482, upload-time = "2025-07-17T06:58:18.462Z" },
-    { url = "https://files.pythonhosted.org/packages/ad/71/36a97a8258cd0f0dd902561d0329a339f5a39a9896f0380763f526e9af89/opendal-0.46.0-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4e202ded0be5410546193f563258e9a78a57337f5c2bb553b8802a420c2ef683", size = 14114685, upload-time = "2025-07-17T06:58:20.728Z" },
-    { url = "https://files.pythonhosted.org/packages/b7/fa/9a30c17428a12246c6ae17b406e7214a9a3caecec37af6860d27e99f9b66/opendal-0.46.0-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:7db426ba8171d665953836653a596ef1bad3732a1c4dd2e3fa68bc20beee7afc", size = 13191783, upload-time = "2025-07-17T06:58:23.181Z" },
-    { url = "https://files.pythonhosted.org/packages/f8/32/4f7351ee242b63c817896afb373e5d5f28e1d9ca4e51b69a7b2e934694cf/opendal-0.46.0-cp311-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:898444dc072201044ed8c1dcce0929ebda8b10b92ba9c95248cf7fcbbc9dc1d7", size = 13358943, upload-time = "2025-07-17T06:58:25.281Z" },
-    { url = "https://files.pythonhosted.org/packages/77/e5/f650cf79ffbf7c7c8d7466fe9b4fa04cda97d950f915b8b3e2ced29f0f3e/opendal-0.46.0-cp311-abi3-musllinux_1_1_armv7l.whl", hash = "sha256:998e7a80a3468fd3f8604873aec6777fd25d3101fdbb1b63a4dc5fef14797086", size = 13015627, upload-time = "2025-07-17T06:58:27.28Z" },
-    { url = "https://files.pythonhosted.org/packages/c4/d1/77b731016edd494514447322d6b02a2a49c41ad6deeaa824dd2958479574/opendal-0.46.0-cp311-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:093098658482e7b87d16bf2931b5ef0ee22ed6a695f945874c696da72a6d057a", size = 14314675, upload-time = "2025-07-17T06:58:29.622Z" },
-    { url = "https://files.pythonhosted.org/packages/1e/93/328f7c72ccf04b915ab88802342d8f79322b7fba5509513b509681651224/opendal-0.46.0-cp311-abi3-win_amd64.whl", hash = "sha256:f5e58abc86db005879340a9187372a8c105c456c762943139a48dde63aad790d", size = 14904045, upload-time = "2025-07-17T06:58:31.692Z" },
+    { url = "https://files.pythonhosted.org/packages/73/ec/44ee750a2e60657fda0e0df67485b5e82d633855b8c76ca17b5d5eb97f0c/opendal-0.47.1-cp311-abi3-macosx_10_12_x86_64.whl", hash = "sha256:82e848e2e9e1b8407120e8bd020de783a4248fbbf049f391644fc74c93a67051", size = 17747421, upload-time = "2026-04-30T18:17:19.094Z" },
+    { url = "https://files.pythonhosted.org/packages/f7/c7/92c806f4c65c55516a7d078e674b6d2dbd80b72dcb681c9bce807497260b/opendal-0.47.1-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:c678036551d957895578b00f8ab9a6317fcc702439e891ccfa868c56c8373d97", size = 17039309, upload-time = "2026-04-30T18:17:34.362Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/9e/67caeb3f1a03dfb3764ade225a2e43953efbac69cc1f3d0912f72df9f891/opendal-0.47.1-cp311-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:5431625e597827da5961b3c17230513be61dd58f1053b1310a7a207123696956", size = 16810680, upload-time = "2026-04-30T18:17:42.973Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/05/408b2d9095c25d6d07695d72121a2e75c51b1aa4d6c7c5f82c6b9cd7104c/opendal-0.47.1-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:de74b280c41024739e1b96006660041f5d85e6b1813ecec7df5552e3e22ebea2", size = 18225419, upload-time = "2026-04-30T18:17:15.247Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/98/c3cbb282f53e0f2f30bc70762b15bfbbd55fc495481141d45de77dae7aa7/opendal-0.47.1-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:dc89730216f48edec808a0dd162164bb7a458931b496befcb0c860ad693f4fcf", size = 17362367, upload-time = "2026-04-30T18:17:52.781Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/c5/dd230895c8ce14e06665bd43757e8f1cac3860a82b214956699075498804/opendal-0.47.1-cp311-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:4ff0d29358435681ebb1c7fb4fadbc113ca9af138014ad7b6ac65d92de9ffa03", size = 17715763, upload-time = "2026-04-30T18:18:08.373Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/7a/33c19dc935ad4a1f71c5682577486b85370594d2f2fb78ceb9b7d208188a/opendal-0.47.1-cp311-abi3-musllinux_1_1_armv7l.whl", hash = "sha256:49f312533fc76acbd3bc0040c114584c0e0e7661f62e0e522efa0825eacbbc8e", size = 17107011, upload-time = "2026-04-30T18:18:29.961Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/24/aa064423a77122b983105a825c9574d0536e66d9ee9606dacd4c93412875/opendal-0.47.1-cp311-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:05f36d4a3f464401440d89d415fb5cd604fbefad0c5ac408bbcc1f0f736cff84", size = 18437138, upload-time = "2026-04-30T18:18:27.056Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/49/95f6671c8ef04eff65a09ebf93149c03ed6318334a4ddea182a31b43fc8f/opendal-0.47.1-cp311-abi3-win_amd64.whl", hash = "sha256:fa2e403e7f86f57164181d1d0f4b59afc77997f89cdeeab883591622b99bda29", size = 19973547, upload-time = "2026-04-30T18:17:45.838Z" },
 ]
 
 [[package]]
@@ -6564,7 +6565,7 @@ wheels = [
 
 [[package]]
 name = "tos"
-version = "2.9.0"
+version = "2.9.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "crcmod" },
@@ -6574,7 +6575,7 @@ dependencies = [
     { name = "six" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9a/b3/13451226f564f88d9db2323e9b7eabcced792a0ad5ee1e333751a7634257/tos-2.9.0.tar.gz", hash = "sha256:861cfc348e770f099f911cb96b2c41774ada6c9c51b7a89d97e0c426074dd99e", size = 157071, upload-time = "2026-01-06T04:13:08.921Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/60/42/079680659e1f6c20f7b837e6b13f16d4c1c389889071f49c18baea9ac2ac/tos-2.9.1.tar.gz", hash = "sha256:06a5cc095d5b3f0e52b04aee8f7e60f8ddcf0c94c4408213e3485e40070d54ef", size = 163709, upload-time = "2026-05-26T03:29:27.747Z" }
 
 [[package]]
 name = "tqdm"
