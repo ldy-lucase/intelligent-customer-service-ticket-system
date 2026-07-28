@@ -62,7 +62,7 @@ dev = [
     "pytest>=9.0.3",
     "pytest-examples>=0.0.18",
     "pytest-mock>=3.14.0",
-    "ruff>=0.15.11",
+    "ruff>=0.16.0",
 ]
 docs = [
     "mkdocs>=1.6.1,<2",
